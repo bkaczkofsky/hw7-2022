@@ -73,14 +73,14 @@ document.querySelector("#slider").addEventListener("click", function() {
 
 document.querySelector("#vintage").addEventListener("click", function() {
 	console.log("Styled");
-	document.body.classList.add('#vintage');
 	video = document.querySelector("#player1");
-	video.classList.add("#vintage");
+	video.classList.add("vintage");
 });
 
-// document.querySelector("#orig").addEventListener("click", function() {
-// 	console.log("Original");
-// 	video = document.querySelector("#player1");
+document.querySelector("#orig").addEventListener("click", function() {
+	console.log("Original");
+	video = document.querySelector("#player1");
+	video.classList.remove("vintage");
 	
-// });
+});
 
