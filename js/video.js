@@ -74,13 +74,12 @@ document.querySelector("#slider").addEventListener("click", function() {
 document.querySelector("#vintage").addEventListener("click", function() {
 	console.log("Styled");
 	video = document.querySelector("#player1");
-	video.classList.add("vintage");
+	video.classList.add("oldSchool");
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
 	console.log("Original");
 	video = document.querySelector("#player1");
-	video.classList.remove("vintage");
-	
+	video.classList.remove("oldSchool");
 });
 
